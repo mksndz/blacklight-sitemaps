@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", ">= 5.1", "< 7"
+  spec.add_dependency "rails", ">= 4.2", "< 7"
   spec.add_dependency "blacklight", ">= 6"
 
   spec.add_development_dependency "engine_cart"
